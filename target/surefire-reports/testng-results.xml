@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="44594" started-at="2020-10-31T16:49:41Z" finished-at="2020-10-31T16:50:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.hubspot.MyRunner_BDD.TestRunner@6a2bcfcb]" name="feature" class="com.qa.hubspot.MyRunner_BDD.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Hubspot Login Test" duration-ms="44594" started-at="2020-10-31T16:49:41Z" finished-at="2020-10-31T16:50:26Z">
+      <class name="com.qa.hubspot.MyRunner_BDD.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.hubspot.MyRunner_BDD.TestRunner@6a2bcfcb]" name="setUpClass" is-config="true" duration-ms="380" started-at="2020-10-31T16:49:41Z" finished-at="2020-10-31T16:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.hubspot.MyRunner_BDD.TestRunner@6a2bcfcb]" name="feature" duration-ms="44028" started-at="2020-10-31T16:49:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-31T16:50:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HubSpot Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.hubspot.MyRunner_BDD.TestRunner@6a2bcfcb]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2020-10-31T16:50:26Z" finished-at="2020-10-31T16:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.hubspot.MyRunner_BDD.TestRunner -->
+    </test> <!-- Hubspot Login Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

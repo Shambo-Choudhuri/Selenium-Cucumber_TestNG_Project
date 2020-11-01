@@ -1,0 +1,134 @@
+2020-10-31 23:55:53,633 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-10-31 23:55:53,643 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-10-31 23:55:53,646 DEBUG [main] PoolingHttpClientConnectionManager:255 - Connection request: [route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-31 23:55:53,664 DEBUG [main] PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-31 23:55:53,666 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://chromedriver.storage.googleapis.com:443
+2020-10-31 23:55:53,672 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to chromedriver.storage.googleapis.com/142.250.67.48:443
+2020-10-31 23:55:53,672 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to chromedriver.storage.googleapis.com/142.250.67.48:443 with timeout 0
+2020-10-31 23:55:53,791 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-10-31 23:55:53,792 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-31 23:55:53,792 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-10-31 23:55:54,009 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-10-31 23:55:54,009 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-10-31 23:55:54,010 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-31 23:55:54,010 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=*.storage.googleapis.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-10-31 23:55:54,012 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [*.storage.googleapis.com, *.appspot.com.storage.googleapis.com, *.commondatastorage.googleapis.com, *.content-storage-download.googleapis.com, *.content-storage-p2.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage.googleapis.com, *.googleapis.com, *.storage-download.googleapis.com, *.storage-upload.googleapis.com, commondatastorage.googleapis.com, storage.googleapis.com, unfiltered.news]
+2020-10-31 23:55:54,012 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-10-31 23:55:54,014 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 172.17.36.222:52165<->142.250.67.48:443
+2020-10-31 23:55:54,014 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-10-31 23:55:54,015 DEBUG [main] MainClientExec:256 - Executing request GET /LATEST_RELEASE HTTP/1.1
+2020-10-31 23:55:54,015 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-10-31 23:55:54,016 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-10-31 23:55:54,017 DEBUG [main] headers:133 - http-outgoing-0 >> GET /LATEST_RELEASE HTTP/1.1
+2020-10-31 23:55:54,018 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-10-31 23:55:54,018 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-10-31 23:55:54,018 DEBUG [main] headers:136 - http-outgoing-0 >> Host: chromedriver.storage.googleapis.com
+2020-10-31 23:55:54,019 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-31 23:55:54,019 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /LATEST_RELEASE HTTP/1.1[\r][\n]"
+2020-10-31 23:55:54,019 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-10-31 23:55:54,020 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-10-31 23:55:54,020 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+2020-10-31 23:55:54,020 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-31 23:55:54,020 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-31 23:55:54,067 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-31 23:55:54,067 DEBUG [main] wire:73 - http-outgoing-0 << "X-GUploader-UploadID: ABg5-UzJvPeW5KhozIx9QeNXW_kXGSepMqEoCHuiALkXzi5CHwxh__1RjbFw_gQA44BU_sIy0PsfJdJET4COYvWrfuC9ykFFGQ[\r][\n]"
+2020-10-31 23:55:54,067 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Sat, 31 Oct 2020 19:15:22 GMT[\r][\n]"
+2020-10-31 23:55:54,068 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Sat, 31 Oct 2020 18:15:22 GMT[\r][\n]"
+2020-10-31 23:55:54,068 DEBUG [main] wire:73 - http-outgoing-0 << "Last-Modified: Tue, 06 Oct 2020 21:04:35 GMT[\r][\n]"
+2020-10-31 23:55:54,068 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: "f479d6ade97303eb0aacc218af38d679"[\r][\n]"
+2020-10-31 23:55:54,069 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-generation: 1602018275026687[\r][\n]"
+2020-10-31 23:55:54,069 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-metageneration: 1[\r][\n]"
+2020-10-31 23:55:54,069 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-stored-content-encoding: identity[\r][\n]"
+2020-10-31 23:55:54,069 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-stored-content-length: 12[\r][\n]"
+2020-10-31 23:55:54,070 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+2020-10-31 23:55:54,070 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-hash: crc32c=8IbTGA==[\r][\n]"
+2020-10-31 23:55:54,070 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-hash: md5=9HnWrelzA+sKrMIYrzjWeQ==[\r][\n]"
+2020-10-31 23:55:54,070 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-storage-class: STANDARD[\r][\n]"
+2020-10-31 23:55:54,071 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-10-31 23:55:54,071 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 12[\r][\n]"
+2020-10-31 23:55:54,071 DEBUG [main] wire:73 - http-outgoing-0 << "Server: UploadServer[\r][\n]"
+2020-10-31 23:55:54,072 DEBUG [main] wire:73 - http-outgoing-0 << "Age: 632[\r][\n]"
+2020-10-31 23:55:54,072 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: public, max-age=3600[\r][\n]"
+2020-10-31 23:55:54,072 DEBUG [main] wire:73 - http-outgoing-0 << "Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-10-31 23:55:54,073 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-31 23:55:54,073 DEBUG [main] wire:87 - http-outgoing-0 << "86.0.4240.22"
+2020-10-31 23:55:54,078 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-31 23:55:54,078 DEBUG [main] headers:125 - http-outgoing-0 << X-GUploader-UploadID: ABg5-UzJvPeW5KhozIx9QeNXW_kXGSepMqEoCHuiALkXzi5CHwxh__1RjbFw_gQA44BU_sIy0PsfJdJET4COYvWrfuC9ykFFGQ
+2020-10-31 23:55:54,079 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Sat, 31 Oct 2020 19:15:22 GMT
+2020-10-31 23:55:54,079 DEBUG [main] headers:125 - http-outgoing-0 << Date: Sat, 31 Oct 2020 18:15:22 GMT
+2020-10-31 23:55:54,079 DEBUG [main] headers:125 - http-outgoing-0 << Last-Modified: Tue, 06 Oct 2020 21:04:35 GMT
+2020-10-31 23:55:54,079 DEBUG [main] headers:125 - http-outgoing-0 << ETag: "f479d6ade97303eb0aacc218af38d679"
+2020-10-31 23:55:54,080 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-generation: 1602018275026687
+2020-10-31 23:55:54,080 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-metageneration: 1
+2020-10-31 23:55:54,080 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-stored-content-encoding: identity
+2020-10-31 23:55:54,081 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-stored-content-length: 12
+2020-10-31 23:55:54,081 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain
+2020-10-31 23:55:54,081 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-hash: crc32c=8IbTGA==
+2020-10-31 23:55:54,082 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-hash: md5=9HnWrelzA+sKrMIYrzjWeQ==
+2020-10-31 23:55:54,082 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-storage-class: STANDARD
+2020-10-31 23:55:54,082 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-10-31 23:55:54,082 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 12
+2020-10-31 23:55:54,083 DEBUG [main] headers:125 - http-outgoing-0 << Server: UploadServer
+2020-10-31 23:55:54,083 DEBUG [main] headers:125 - http-outgoing-0 << Age: 632
+2020-10-31 23:55:54,083 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: public, max-age=3600
+2020-10-31 23:55:54,083 DEBUG [main] headers:125 - http-outgoing-0 << Alt-Svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-10-31 23:55:54,090 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-31 23:55:54,101 DEBUG [main] PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443] can be kept alive indefinitely
+2020-10-31 23:55:54,101 DEBUG [main] PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-31 23:55:55,087 DEBUG [Forwarding newSession on session null to remote] RequestAddCookies:123 - CookieSpec selected: default
+2020-10-31 23:55:55,095 DEBUG [Forwarding newSession on session null to remote] RequestAuthCache:77 - Auth cache not set in the context
+2020-10-31 23:55:55,096 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:38615][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-10-31 23:55:55,097 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://localhost:38615][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-10-31 23:55:55,097 DEBUG [Forwarding newSession on session null to remote] MainClientExec:235 - Opening connection {}->http://localhost:38615
+2020-10-31 23:55:55,098 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:38615
+2020-10-31 23:55:55,098 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:52168<->127.0.0.1:38615
+2020-10-31 23:55:55,099 DEBUG [Forwarding newSession on session null to remote] DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 10800000
+2020-10-31 23:55:55,100 DEBUG [Forwarding newSession on session null to remote] MainClientExec:256 - Executing request POST /session HTTP/1.1
+2020-10-31 23:55:55,100 DEBUG [Forwarding newSession on session null to remote] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-10-31 23:55:55,101 DEBUG [Forwarding newSession on session null to remote] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-10-31 23:55:55,101 DEBUG [Forwarding newSession on session null to remote] headers:133 - http-outgoing-1 >> POST /session HTTP/1.1
+2020-10-31 23:55:55,102 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2020-10-31 23:55:55,102 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-1 >> Content-Length: 560
+2020-10-31 23:55:55,103 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-1 >> Host: localhost:38615
+2020-10-31 23:55:55,103 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2020-10-31 23:55:55,104 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_241)
+2020-10-31 23:55:55,104 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-10-31 23:55:55,105 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "POST /session HTTP/1.1[\r][\n]"
+2020-10-31 23:55:55,105 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-10-31 23:55:55,106 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "Content-Length: 560[\r][\n]"
+2020-10-31 23:55:55,106 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "Host: localhost:38615[\r][\n]"
+2020-10-31 23:55:55,106 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-31 23:55:55,107 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_241)[\r][\n]"
+2020-10-31 23:55:55,107 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-31 23:55:55,107 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "[\r][\n]"
+2020-10-31 23:55:55,108 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "{[\n]"
+2020-10-31 23:55:55,108 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "  "desiredCapabilities": {[\n]"
+2020-10-31 23:55:55,108 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    "browserName": "chrome",[\n]"
+2020-10-31 23:55:55,108 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    "goog:chromeOptions": {[\n]"
+2020-10-31 23:55:55,109 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      "args": [],[\n]"
+2020-10-31 23:55:55,109 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      "extensions": [][\n]"
+2020-10-31 23:55:55,110 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    }[\n]"
+2020-10-31 23:55:55,110 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "  },[\n]"
+2020-10-31 23:55:55,111 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "  "requiredCapabilities": {},[\n]"
+2020-10-31 23:55:55,111 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "  "capabilities": {[\n]"
+2020-10-31 23:55:55,112 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    "desiredCapabilities": {[\n]"
+2020-10-31 23:55:55,112 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      "browserName": "chrome",[\n]"
+2020-10-31 23:55:55,112 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      "goog:chromeOptions": {[\n]"
+2020-10-31 23:55:55,113 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "        "args": [],[\n]"
+2020-10-31 23:55:55,113 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "        "extensions": [][\n]"
+2020-10-31 23:55:55,113 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      }[\n]"
+2020-10-31 23:55:55,114 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    },[\n]"
+2020-10-31 23:55:55,114 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    "requiredCapabilities": {},[\n]"
+2020-10-31 23:55:55,114 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    "alwaysMatch": {[\n]"
+2020-10-31 23:55:55,115 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      "goog:chromeOptions": {[\n]"
+2020-10-31 23:55:55,115 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "        "args": [],[\n]"
+2020-10-31 23:55:55,116 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "        "extensions": [][\n]"
+2020-10-31 23:55:55,116 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      }[\n]"
+2020-10-31 23:55:55,117 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    },[\n]"
+2020-10-31 23:55:55,117 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    "firstMatch": [[\n]"
+2020-10-31 23:55:55,118 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      {[\n]"
+2020-10-31 23:55:55,118 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "        "browserName": "chrome"[\n]"
+2020-10-31 23:55:55,118 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "      }[\n]"
+2020-10-31 23:55:55,118 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "    ][\n]"
+2020-10-31 23:55:55,119 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-1 >> "  }[\n]"
+2020-10-31 23:55:55,119 DEBUG [Forwarding newSession on session null to remote] wire:87 - http-outgoing-1 >> "}"
